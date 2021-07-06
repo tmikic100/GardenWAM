@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700&amp;subset=latin-ext');
+
+body{
+	background-color: #032535;
+	margin: 0px; 
+	height: 100%; 
+	//overflow: hidden;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+p{
+	color: #FFB515;
+	font: normal 20px/40px Merriweather;
+}
+h1{
+	color: #FFB515;
+	text-align: center;
+	font: normal 60px/75px Merriweather;
+	margin-bottom: 20px
+}
+h2{
+	color: #FFB515;
+	text-align: center;
+	font: normal 40px/75px Merriweather;
+	margin: 0px
+}
+h3{
+	text-align: center;
+}
+h4{
+	color: #FFB515;
+	text-align: center;
+	font: normal 20px/75px Merriweather;
+	margin: 0px
+}
+a{
+	color: #FFB515;
+	text-align: center;
+	font: normal 30px/60px Merriweather;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #135371;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  height: 40px;
+}
+
+li a {
+	display: block;
+	color: #FFB515;
+	text-align: center;
+	font: normal 20px/40px Merriweather;
+	padding: 0px 16px;
+	text-decoration: none;
+}
+.active {
+  background-color: #02A12D;
+}
+
+li a:not(.active):hover {
+  background-color: #111;
+}
+

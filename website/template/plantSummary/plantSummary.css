@@ -1,0 +1,16 @@
+.pageSummaryContiner{
+	display: flex;
+	flex-direction: column;
+}
+.pageSummaryItem{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.pageSummaryItemText{
+	padding-right: 20px;
+}
+.pageSummaryItemTitle{
+	padding-right: 20px;
+}

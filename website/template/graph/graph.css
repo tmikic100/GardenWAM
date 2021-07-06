@@ -1,0 +1,27 @@
+.globalContiner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.chartContiner{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.chartText{
+	display: flex;
+	justify-content: space-around;
+}
+.text{
+	margin: 20px
+}
+.text p{
+	margin: 10px 0px 10px 0px;
+}
+
+td.legendLabel{
+	color: #555555;
+}
+
+
